@@ -4,6 +4,7 @@ import Welcome from './Func&Class/Function';
 import Greet from './Func&Class/ClassComponent';
 import KKNProps from './Props&State/PropsFunction';
 import KKNPropsClass from './Props&State/PropsClass';
+import KKNStateClass from './Props&State/StateClass';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <KKNPropsClass name="YogaPriya">
         <div>Senior Developer - Angular & ReactJS</div>
       </KKNPropsClass>
+      <KKNStateClass></KKNStateClass>
     </div>
   );
 }
