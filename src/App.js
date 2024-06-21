@@ -5,6 +5,7 @@ import Greet from './Func&Class/ClassComponent';
 import KKNProps from './Props&State/PropsFunction';
 import KKNPropsClass from './Props&State/PropsClass';
 import KKNStateClass from './Props&State/StateClass';
+import Counter from './Props&State/Setstare';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <div>Senior Developer - Angular & ReactJS</div>
       </KKNPropsClass>
       <KKNStateClass></KKNStateClass>
+      <Counter/>
     </div>
   );
 }
