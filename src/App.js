@@ -1,10 +1,10 @@
 import './App.css';
-import BasicStyle from './CSS/BasicStyle';
+import Form from './FormHandling/Form';
 
 function App() {
   return (
     <div className="App">
-      <BasicStyle/>
+      <Form/>
     </div>
   );
 }
