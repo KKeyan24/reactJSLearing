@@ -1,11 +1,10 @@
 import './App.css';
-import DataJson from './Other/DataJson';
-
+import BasicStyle from './CSS/BasicStyle';
 
 function App() {
   return (
     <div className="App">
-      <DataJson></DataJson>
+      <BasicStyle/>
     </div>
   );
 }
