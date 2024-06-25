@@ -6,6 +6,7 @@ import KKNProps from './Props&State/PropsFunction';
 import KKNPropsClass from './Props&State/PropsClass';
 import KKNStateClass from './Props&State/StateClass';
 import Counter from './Props&State/Setstare';
+import ParentComp from './Other/ParentComp';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       </KKNPropsClass>
       <KKNStateClass></KKNStateClass>
       <Counter/>
+      <ParentComp/>
     </div>
   );
 }
