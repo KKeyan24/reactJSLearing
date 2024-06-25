@@ -31,7 +31,7 @@ const names = [
         fullName: "Cohn, Marc S.",
     } 
 ]
-const nameList = names.map(name => <ListRendering persons={name}></ListRendering>)
+const nameList = names.map(name => <ListRendering key={name.fiduciaryId} persons={name}></ListRendering>)
 return <div>{nameList}</div>
 }
 
