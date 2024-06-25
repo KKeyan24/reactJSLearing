@@ -7,11 +7,12 @@ import KKNPropsClass from './Props&State/PropsClass';
 import KKNStateClass from './Props&State/StateClass';
 import Counter from './Props&State/Setstare';
 import ParentComp from './Other/ParentComp';
+import CondRendering from './Other/CondRendering';
 
 function App() {
   return (
     <div className="App">
-      <Welcome/>
+      {/* <Welcome/>
       <Greet/>
       <KKNProps name="Karthikeyan P">
         <p>Senior Consultant - UI Developer</p>
@@ -21,7 +22,8 @@ function App() {
       </KKNPropsClass>
       <KKNStateClass></KKNStateClass>
       <Counter/>
-      <ParentComp/>
+      <ParentComp/> */}
+      <CondRendering></CondRendering>
     </div>
   );
 }
