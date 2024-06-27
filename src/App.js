@@ -1,14 +1,10 @@
 import './App.css';
-import Counter from './highorderComp/Counter';
-import HoverCount from './highorderComp/HoverCount';
-
+import PostFunComp from './HTTP/postFunComp';
 
 function App() {
   return (
     <div className="App">
-      <Counter></Counter><br>
-      </br><br></br>
-      <HoverCount/>
+      <PostFunComp/>
     </div>
   );
 }
