@@ -1,10 +1,14 @@
 import './App.css';
-import Form from './FormHandling/Form';
+import Counter from './highorderComp/Counter';
+import HoverCount from './highorderComp/HoverCount';
+
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <Counter></Counter><br>
+      </br><br></br>
+      <HoverCount/>
     </div>
   );
 }
