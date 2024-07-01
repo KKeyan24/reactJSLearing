@@ -1,10 +1,10 @@
 import './App.css';
-import PostFunComp from './HTTP/postFunComp';
+import MainIndex from './SelfDevelopment/MainIndex';
 
 function App() {
   return (
     <div className="App">
-      <PostFunComp/>
+      <MainIndex/>
     </div>
   );
 }
