@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    margin: 90px 500px;
+    padding: 20px 25px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: lightcyan;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: flex-start;
+}
+
+label {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: start;
+}
+
+.title {
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+input {
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sumbitButton:hover {
+    background-color: #2a0095;
+    color: white;
+}
