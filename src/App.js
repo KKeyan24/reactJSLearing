@@ -1,10 +1,18 @@
 import './App.css';
-import MainIndex from './SelfDevelopment/MainIndex';
+import CondtRendering from './LifeCycleHooks/CondtRendering';
+import EffectHook from './LifeCycleHooks/EffectHooks';
+import FetchData from './LifeCycleHooks/FetchData';
+import HookCounter from './LifeCycleHooks/HookCounter';
+import UseState from './LifeCycleHooks/UseState';
 
 function App() {
   return (
     <div className="App">
-      <MainIndex/>
+      {/* <UseState/> */}
+      {/* <HookCounter/> */}
+      {/* <EffectHook/> */}
+      {/* <CondtRendering/> */}
+      <FetchData/>
     </div>
   );
 }
