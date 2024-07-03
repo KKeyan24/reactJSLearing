@@ -1,18 +1,18 @@
 import './App.css';
-import CondtRendering from './LifeCycleHooks/CondtRendering';
-import EffectHook from './LifeCycleHooks/EffectHooks';
-import FetchData from './LifeCycleHooks/FetchData';
-import HookCounter from './LifeCycleHooks/HookCounter';
-import UseState from './LifeCycleHooks/UseState';
+import UseContext from './LifeCycleHooks/UseContext';
+import React from 'react';
+
+export const userContext = React.createContext();
+export const channelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      {/* <UseState/> */}
-      {/* <HookCounter/> */}
-      {/* <EffectHook/> */}
-      {/* <CondtRendering/> */}
-      <FetchData/>
+      <userContext.Provider value={'Karthi'}>
+        <channelContext.Provider value={'React Learing'}>
+          <UseContext/>
+        </channelContext.Provider>
+      </userContext.Provider>
     </div>
   );
 }
