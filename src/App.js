@@ -1,18 +1,10 @@
 import './App.css';
-import UseContext from './LifeCycleHooks/UseContext';
-import React from 'react';
-
-export const userContext = React.createContext();
-export const channelContext = React.createContext();
+import DataFetch from './LifeCycleHooks/DataFetch';
 
 function App() {
   return (
     <div className="App">
-      <userContext.Provider value={'Karthi'}>
-        <channelContext.Provider value={'React Learing'}>
-          <UseContext/>
-        </channelContext.Provider>
-      </userContext.Provider>
+      <DataFetch/>
     </div>
   );
 }
